@@ -5,8 +5,7 @@ Getting Started
 ### What is this repository for? ###
 
 * Proof of Concept
-* Mobile :telephone: testing using Node, Appium, and Sauce Lab 
-* Integration with CI ultimately - in process :construction:
+* Mobile :telephone: testing using Node, Appium, and Sauce Lab/Local Simulator/Native 
 
 ### How to get set up ###
 
@@ -16,8 +15,8 @@ Getting Started
     * #### Install webdriver.io gloablly this will be our appium client
         + `$ npm install -g webdriverio@3.4.0`
     * #### Clone Project 
-        + `$ git clone https://<username>@bitbucket.org/qwmobiletesting/saucelab_mobile_demo.git testApp`
-        + `$ cd testApp`
+        + `$ git clone {this project}`
+        + `$ cd qualityworks-mobile-automation-demo`
     * #### Get Dependencies
         + `$ npm install`
     * #### Upload application for testing

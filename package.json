@@ -1,0 +1,18 @@
+{
+  "name": "mobiletesting",
+  "version": "1.0.0",
+  "description": "Mobile Testing in the Cloud",
+  "main": "wdio.conf.js",
+  "scripts": {
+    "test": "wdio",
+    "get-sauce-connect": "SAUCE_CONNECT_DOWNLOAD_ON_INSTALL=true npm install"
+  },
+  "author": "Dimitri V. Harding <dharding@qualityworkscg.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "chai-as-promised": "5.2.0",
+    "dotenv": "2.0.0",
+    "webdriverio": "4.0.3"
+  }
+}

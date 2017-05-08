@@ -1,4 +1,4 @@
-var ele  = require('../../common/elements.js');
+var element  = require('../../common/elements.js');
 var client = browser;
 
 describe('Testing alert functionality', function(){
@@ -7,7 +7,7 @@ describe('Testing alert functionality', function(){
     //Callback - Done
     it('should be able to show alert and confirm text',function(done){
        return client
-        .click(ele.btnShowAlert)
+        .click(element.btnShowAlert)
         .alertText( function( err, text ) {
            (text).should.not.be.equal(null); 
            (text).should.include("Cool title");
